@@ -1,1 +1,12 @@
-rootProject.name = 'Economica'
+rootProject.name = "Economica"
+
+include(
+    "economica-bom",
+    "economica-model",
+    "economica-core",
+    "economica-engine",
+    "economica-storage",
+    "economica-api",
+    "economica-cli",
+    "economica-examples"
+)
