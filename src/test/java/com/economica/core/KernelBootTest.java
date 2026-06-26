@@ -9,8 +9,11 @@ class KernelBootTest {
     @Test
     void kernelShouldBoot() {
 
-        Kernel kernel = Economica.standard();
+        EconomicaKernel kernel = Economica.standard();
 
         assertNotNull(kernel);
+        assertNotNull(kernel.observations());
+
     }
+
 }

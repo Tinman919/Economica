@@ -1,14 +1,12 @@
 package com.economica.core;
 
-/**
- * Public entry point for the Economica framework.
- */
 public final class Economica {
 
     private Economica() {
     }
 
-    public static Kernel standard() {
+    public static EconomicaKernel standard() {
         return KernelBuilder.standard();
     }
+
 }

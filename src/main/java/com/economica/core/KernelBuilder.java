@@ -1,13 +1,14 @@
 package com.economica.core;
 
-import com.economica.core.internal.StandardKernel;
+import com.economica.core.internal.DefaultEconomicaKernel;
 
 public final class KernelBuilder {
 
     private KernelBuilder() {
     }
 
-    public static Kernel standard() {
-        return new StandardKernel();
+    public static EconomicaKernel standard() {
+        return new DefaultEconomicaKernel();
     }
+
 }
