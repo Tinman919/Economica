@@ -1,0 +1,10 @@
+plugins {
+    id 'application'
+}
+
+application {
+    mainClass = 'com.economica.devtools.DevTools'
+}
+
+dependencies {
+}
